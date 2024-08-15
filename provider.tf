@@ -1,7 +1,6 @@
 # Configure the AWS Provider
 provider "aws" {
-  access_key = "AKIAVRUVWVQD6LXTQXP2"
-  secret_key = "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"
+
   region     = "us-east-1"
 }
 
@@ -11,5 +10,3 @@ resource "aws_vpc" "main" {
 }
 
 
-# AKIAVRUVWVQD6LXTQXP2
-# 6Eu4/0fP6ekdOh2gcqv8xW6xXSccDF9sSbBQG/KL
